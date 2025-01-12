@@ -1,0 +1,117 @@
+XPath 
+
+Absolute xpath (not recommended) - /html/body/div[4]/div[1]/div/div[6]/div[1]/div[2]/div/div/div[2]/div/div/div/form/div[5]/div/div/div[1]
+
+Relative xpath -
+//tagname[@attribute='']
+//tagname[text()='']
+
+
+Grouping of xpath - starts at 1 
+(//div[@class='checkbox-ui'])[2]
+
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
+normalize-space
+//tagname[normalize-space()='']
+//tagname[contains(normalize-space(),'')]
+
+//a[normalize-space()='Audio Converter']
+
+And - Or
+//tagname[@attribute='' and @attribute='']
+
+Parent-child
+Parent - //img[@alt='Go']/..
+
+ancestor-descendant
+
+following-preceding 
+
+
+For Upload
+//input[@type='file']
+
+
+Examples: validate in chrome - ctrl+f 
+//div[@class='checkbox-ui']
+
+//a[@class='newclose']
+//b[text()='Citi Commercial Bank']
+
+//*[@name='fldLoginUserId']
+
+//input[contains(@id,'UserFirst')]
+
+
+-------------------------
+CSS Selector 
+#id 
+.classname
+tagname[attribute='']
+[attribute='']
+
+Example:
+#authUser
+#clearPass
+
+button[type='submit']
+[name='authUser']
+
+input[name='dateDeparture']
+---------------------------------
+
+john, john123, Invalid credentials
+peter,peter123, Invalid credentials 
+
+
+
+---------------
+
+BDD - 
+Datatable, 
+Page object model 
+
+
+Selenium - 
+Keyboard, javascripts, web table (logic writing), chromeoptions
+
+Java - inheritance, interface 
+
+
+
+
+---------------------------------------
+
+Core Java
+Architecture 
+Datatypes 
+COnditional/Iterative statements
+Class & Object (Static vs Non-static variable/Methods) 
+COnstructor 
+
+
+Inheritance
+Encapsulation
+Polymorphism 
+Abstraction
+	Abstract class
+	Interface 
+
+	
+
+
+[ {first_name=jack, middle_name=w, last_name=ken}] 
+
+Admin,admin123, jack, w, ken
+Admin, admin123, peter, k, wick
+
+
+-------------------------
+FindElements
+XPath 
+Jenkins
+Datadriven - excel 
+
